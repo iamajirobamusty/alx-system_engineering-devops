@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#looping with for statement
+for (( x=0; x < 10; x += 1 )); do
+echo "Best School"
+done
