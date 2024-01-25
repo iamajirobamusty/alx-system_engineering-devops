@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# displays a list of processes 
-
-ps axuf
