@@ -1,4 +1,4 @@
 #!/bin/bash
 #a script that displays the listening ports and PID
 
-netstat -pl
+netstat -lp
