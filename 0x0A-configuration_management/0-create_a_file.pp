@@ -1,8 +1,8 @@
-# A script to create a file school in the directory tmp
-file { '/tmp/school':
+# creates a file 'school' in /tmp
 
-group   => 'www-data',
-owner   => 'www-data',
-content => 'I love puppet',
-mode    => '0744'
+file { '/tmp/school':
+  content =>'I love Puppet',
+  mode    => '0744',
+  owner   => 'www-data',
+  group   => 'www-data',
 }
