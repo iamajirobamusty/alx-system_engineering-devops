@@ -14,7 +14,7 @@ frontend  musty-frontend
         bind *:80
         mode http
         default_backend musty-backend
-backend ehoneah-backend
+backend musty-backend
         balance roundrobin
         server 286047-web-01 18.207.139.225:80 check
         server 286047-web-02 100.25.155.146:80 check
