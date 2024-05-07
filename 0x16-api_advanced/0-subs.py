@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import requests
 
-def number_of_subscribers(subereddit):
+def number_of_subscribers(subreddit):
     """A function to get the total number of
         of subscribers of a subreddit API
         Args:
