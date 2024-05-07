@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def number_of_subscribers(subereddit):
     """A function to get the total number of
         of subscribers of a subreddit API
