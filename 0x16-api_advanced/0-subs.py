@@ -15,4 +15,4 @@ def number_of_subscribers(subreddit):
     headers = {"User-Agent": "Google Chrome Version 124.0.6367.119"}
     req = requests.get(f'https://www.reddit.com/r/{subreddit}/about.json',headers=headers)
     result = req.json()
-    return req.json().get('data').get('subscribers')
+    return result.get('data').get('subscribers')
